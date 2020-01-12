@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+
+<body>
+  <h1>顔採点カメラ</h1>
+
+  <video id="camera" width="300" height="200"></video>
+  <canvas id="picture" width="300" height="200"></canvas>
+  <form>
+    <button type="button" id="shutter">採点スタート</button>
+    <h2 id="load"></h2>
+    <h2 id="result"></h2>
+  </form>
+
+  <audio id="se" preload="auto">
+    <source src="camera-shutter1.mp3" type="audio/mp3">
+  </audio>
+
+  <script src="js/jquery.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
